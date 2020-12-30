@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 35mm 35mm 35mm 35mm;
+  grid-auto-rows: minmax(35mm, 35mm);
+  column-gap: 0.5em;
+  row-gap: 1.5em;
+}
+.grid > div {
+  background-color: yellowgreen;
+}
+
+img {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  align-content: center;
+}
